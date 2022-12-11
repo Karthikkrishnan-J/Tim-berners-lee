@@ -1,0 +1,77 @@
+img{
+    border-radius:  50pc;
+    width: 170px;
+    height: 200px;
+}
+h1{
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgba(55, 22, 186, 0.792);
+}
+h2{
+    font-size: 30px;
+    color: rgb(244, 28, 4);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: oblique;
+}
+p{
+    font-size: 15px;
+    color: darkslategray;
+    font-family:cursive;
+    font-style:italic;
+    font-weight: 100;
+    max-width: 500px;
+    margin:auto;
+}
+body{
+    text-align: center;
+    padding-top: 400px;
+    
+    
+}
+.line{
+    background-color: brown;
+    width: 70px;
+    height: 6px;
+    margin: auto ;
+    margin-bottom: 20px;
+}
+#Welcome{
+    background:linear-gradient(rgb(115, 255, 0) 0pc,rgb(0, 255, 251) 75pc) ;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 9;
+    display: table;
+    height: 100pc;
+    width: 100pc;
+}
+#inner{
+display: table-cell;
+vertical-align: middle;
+}
+.menu{
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    list-style: none;
+    background-color: azure;
+    width: 100%;
+    margin-top: 0px;
+}
+.link{
+    padding: 12px;
+    display: inline;
+}
+.contact1 h3{
+    display: inline;
+}
+.contact1{
+     background-color: rgb(255, 153, 0);
+}
+.link a{
+    text-decoration: none;
+}
